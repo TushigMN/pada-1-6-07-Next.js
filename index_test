@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>My website</title>
 <style>
-body{margin:0;font-family:sans-serif;background:#c4f2b1;text-align:center}
+body{margin:0;font-family:sans-serif;background:#dff0d8;text-align:center}
 h1,p{margin:.5rem 0}
 table{margin:8px auto;border-collapse:collapse}td{border:1px solid #000;padding:6px}
 tr:nth-child(2) td:nth-child(2){background:brown;color:#fff}
@@ -13,7 +13,7 @@ input,textarea,select{margin:6px;padding:6px;border:1px solid #666}
 .btn:hover{background:red}
 img{display:block;margin:8px auto;border:3px solid #666;animation:pop .3s both}
 @keyframes pop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
-@media(max-width:600px){body{background:rgb(102, 243, 92)}}
+@media(max-width:600px){body{background:yellow}}
 </style>
 </head>
 <body>
@@ -29,11 +29,10 @@ img{display:block;margin:8px auto;border:3px solid #666;animation:pop .3s both}
 <input type="text" placeholder="Name"><br>
 <textarea rows="2" placeholder="Text"></textarea><br>
 <select><option>1</option></select><br>
-<label><input type="radio" name="r" checked> A</label>
-<label><input type="radio" name="r"> B</label><br>
+<label><input type="radio" name="r" checked> A</label><label><input type="radio" name="r"> B</label><br>
 <button class="btn" type="submit">Send</button>
 </form>
 <p><a href="https://example.com" target="_blank" rel="noopener">Other site</a></p>
-<img src="https://picsum.photos/id/237/250" alt="Example image">
+<img src="https://via.placeholder.com/150" alt="Example image">
 </body>
 </html>
